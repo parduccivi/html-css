@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;         
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 2em;
+            box-shadow: 1px 1px 1px black; 
+                    
+        }
+       
+        nav {
+            background-color: burlywood;
+            text-align: end;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px black; 
+        }
+
+        nav > a {
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 5px;            
+        }
+        nav >a:hover {
+            background-color: black;
+            color: white;
+            font-size: 1em;
+            box-shadow: 1px 1px 1px #ffffff; 
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px black;
+        }
+        h2 {
+            text-align: center;
+        }
+        section {
+            text-align: justify;
+            display: inline-block;
+            padding: 10px;
+            box-shadow: 1px 1px 1px black;
+        }
+                        
+        article > aside {
+            background-color: rgb(187, 187, 187);
+            font-weight: bold;
+            text-align: end;
+            margin: 10px;
+            box-shadow: 1px 1px 1px black;
+        }
+        footer {
+            background-color: rgb(109, 109, 109);
+            color: white;
+            font-family: monospace;
+            text-align: center;
+            font-size: 3em;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        footer > p {
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Meu site</h1>
+        <nav>            
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="politica">
+            <h2>Política</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates amet unde, quod ex reprehenderit facilis assumenda eligendi? Pariatur maiores ea eligendi accusantium repellat, delectus ipsum, et esse magni fugiat officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quisquam, vel amet velit rem sit placeat? Quam beatae molestiae similique ex magnam fuga perferendis, blanditiis aliquid, velit provident odio quasi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam vitae quae labore nemo culpa, est, ipsum temporibus ipsa maiores eos a possimus perspiciatis animi reiciendis numquam magni eum voluptas praesentium.</p>
+        </section>
+        <section id="financas">
+            <h2>finanças</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam blanditiis voluptas, temporibus nulla laboriosam minus nam, at repudiandae ad repellendus illum non? Quisquam illo accusamus minus aut, obcaecati repudiandae sint! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus hic ex saepe id ad ratione amet doloribus, adipisci eaque nemo optio, cum facere natus. Ad vitae qui perferendis pariatur numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iusto laudantium aliquam, dignissimos et consectetur corrupti beatae numquam, libero nesciunt delectus tempore iure vero fuga aperiam quas soluta animi inventore.</p>
+        </section>
+        <article id="relacao">
+            <h2>A relação das finanças com Política</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, fugit ad porro nihil amet veritatis facilis voluptate voluptatibus corrupti accusantium exercitationem id ea! Repellendus quos est quae voluptatibus rem architecto Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quaerat libero aperiam laborum quam, distinctio maiores, iure ipsum commodi nesciunt sint vitae odit labore nisi! Maiores ipsum tenetur quis nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolor tempora dicta culpa architecto! Qui, tenetur reiciendis dignissimos optio, maxime corporis animi consequatur laudantium temporibus similique recusandae quasi rerum hic!</p>
+            <aside>
+                Artigo escrito por Josué maria
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por Vinicius Parducci</p>
+    </footer>
+</body>
+</html>
