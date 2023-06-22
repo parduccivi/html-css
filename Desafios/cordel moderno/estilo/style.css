@@ -2,47 +2,71 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 :root {
     --fonte-padrao: 'Nunito', sans-serif;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte-padrao);
 }
 
 header{
     background-color: black;
     color: white;
     text-align: center;
-    font-family: var(--fonte-padrao);
-    font-size: 38px;
 }
 
-body {
- font-family: var(--fonte-padrao);
- font-size: 26px;
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
-div {
-    background-color: rgba(0, 0, 0, 0.295);
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
     color: white;
-    height: auto;
-    max-width: 350px;
-    margin: 20px;
-        
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.dentro {
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: blue;
+    color: white
+}
+
+section.imagem p {
+    width: 400px;
+    background-color: darkblue;
+}
+
+footer {
     background-color: black;
-    padding: 15px;
-    border: 0px;
-}
-#q1 {
-     background: black url(../imagens/background001.jpg) left center no-repeat fixed;
-    background-size: cover;
-    padding: 20px;
-
-    
-}
-
-#q2 {
-    background: black url(../imagens/background002.jpg) left center no-repeat fixed;
-   background-size: cover;
-   padding: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
